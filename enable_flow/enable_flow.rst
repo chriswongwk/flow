@@ -52,7 +52,7 @@ Fill out the following fields and click **Save**:
 - **Description** - Flow testing VM
 - **vCPU(s)** - 2
 - **Number of Cores per vCPU** - 1
-- **Memory** - 4 GiB
+- **Memory** - 2 GiB
 - Select **+ Add New Disk**
 
   - **Operation** - Clone from Image Service
