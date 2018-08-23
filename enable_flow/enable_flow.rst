@@ -61,8 +61,7 @@ Fill out the following fields and click **Save**:
 - Remove **CD-ROM** Disk
 - Select **Add New NIC**
 
-  - **VLAN Name** - Primary
-  - **IP Address** - *10.21.XX.42*
+  - **VLAN Name** - Rx-Automation-Network
   - Select **Add**
 
 Clone the other four VMs:
