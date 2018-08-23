@@ -63,4 +63,11 @@ https://hostedpoc.nutanix.com  - *Accessible via the View client or HTML5*
 
 **Nutanix Employees** - Use your NUTANIXDC credentials
 
-**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** PartnerSE/4u
+**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** partnerSE/4u
+
+We have 4 cluster today, each cluster will be shared with 10 participants. You will be informed your cluster number and user number before you start your HOL.
+
+POC-015
+POC-023
+POC-044
+POC-050
