@@ -21,7 +21,9 @@ This part should be configured by your instrcture, you move to "Create Five VMs"
 Enabling Microsegmentation
 ++++++++++++++++++++++++++
 
-Open https://<Prism-Central-IP>:9440/ in a browser and log in.**Prism Central: 10.21.xx.120** **User: admin**  **password: partnerSE/4u**
+Open https://<Prism-Central-IP>:9440/ in a browser and log in.
+
+**Prism Central: https://10.21.xx.120:9440** **User: admin**  **password: partnerSE/4u**
 
 From the navigation bar, click the question mark at the top right corner and expand the **New in Prism Central** section of the menu.
 
