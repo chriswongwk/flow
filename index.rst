@@ -34,7 +34,7 @@
 Getting Started
 ---------------
 
-Welcome to Partner SE community 
+Welcome to Partner SE community of Hong Kong 
 
 What's New
 ++++++++++
@@ -54,6 +54,7 @@ Citrix XenDesktop
 https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
 
 Or, 
+
 VMware Horizon View
 ...................
 
