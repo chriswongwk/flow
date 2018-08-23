@@ -36,6 +36,8 @@ Getting Started
 
 Welcome to Partner SE community of Hong Kong 
 
+**Just One Thing. The HOL is simple and short. Read carefully, do not skip.** 
+
 What's New
 ++++++++++
 
