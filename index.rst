@@ -68,6 +68,9 @@ https://hostedpoc.nutanix.com  - *Accessible via the View client or HTML5*
 We have 4 cluster today, each cluster will be shared with 10 participants. You will be informed your cluster number and user number before you start your HOL.
 
 POC-015
+
 POC-023
+
 POC-044
+
 POC-050
