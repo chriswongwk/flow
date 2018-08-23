@@ -80,7 +80,7 @@ POC-050
 If your VDI is slow try to use this VPN.
 
 Non-Employee Pulse Secure VPN
-https://lab-vpn.nutanix.com - Username: POCxxx-User01 (up to POCxxx-User20), Password: <Provided by Instructor>
+https://lab-vpn.nutanix.com - Username: POCxxx-User01 (up to POCxxx-User20), Password: partnerSE/4u
 
 Under Client Application Sessions, click Start to the right of Pulse Secure to download the client.
 
