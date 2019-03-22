@@ -30,64 +30,172 @@
 
 .. _getting_started:
 
----------------
-Getting Started
----------------
+----------------------
+Accessing Your Cluster
+----------------------
+........
 
-Welcome to Partner SE community of Hong Kong 
+Parallels VDI
 
-**Just One Thing. The HOL is simple and short. Read carefully, do not skip.** 
+1. Login to https://xld-uswest1.nutanix.com (for PHX) using your supplied credentials
 
-What's New
-++++++++++
+2. Select Install the Parallels Client (better performance) Or HTML5 (web browser) 
 
-- Workshop updated for the following software versions:
-  - AOS 5.6
-  - Prism Central 5.6
+3. Select a desktop or application of your choice.
 
-Access Instructions
-+++++++++++++++++++
+- **Username** - PHX-POC067-User01, PHX-POC067-User02 … PHX-POC067-User20 etc.
 
-The Nutanix Hosted POC environment can be accessed a number of different ways:
-
-Citrix XenDesktop
-.................
-
-https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
-
-Or, 
-
-VMware Horizon View
-...................
-
-https://hostedpoc.nutanix.com  - *Accessible via the View client or HTML5*
+- **Password** - partnerSE/4u
 
 
-**Nutanix Employees** - Use your NUTANIXDC credentials
 
-**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** partnerSE/4u
 
-We have 4 cluster today, each cluster will be shared with 10 participants. You will be informed your cluster number and user number before you start your HOL.
+---------------------
+For User 01 - User 05
+---------------------
 
-POC-015
+Cluster IP: https://10.42.67.37:9440/console/#login
 
-POC-023
+Prism Central IP: https://10.42.67.40:9440
 
-POC-044
+Position: D CVM IP: 10.42.67.29 Hypervisor IP: 10.42.67.25 IPMI IP: 10.42.67.33
 
-POC-050
+Position: A CVM IP: 10.42.67.30 Hypervisor IP: 10.42.67.26 IPMI IP: 10.42.67.34
 
-If your VDI is slow try to use this VPN.
+Position: B CVM IP: 10.42.67.31 Hypervisor IP: 10.42.67.27 IPMI IP: 10.42.67.35
 
-Non-Employee Pulse Secure VPN
-https://lab-vpn.nutanix.com - Username: POCxxx-User01 (up to POCxxx-User20), Password: partnerSE/4u
+Position: C CVM IP: 10.42.67.32 Hypervisor IP: 10.42.67.28 IPMI IP: 10.42.67.36
 
-Under Client Application Sessions, click Start to the right of Pulse Secure to download the client.
 
-Install and open Pulse Secure.
+**LOGIN CREDENTIALS**
 
-Add a connection:
 
-Type - Policy Secure (UAC) or Connection Server
-Name - HPOC VPN
-Server URL - lab-vpn.nutanix.com
+Prism UI Credentials: admin/partnerSE/4u
+
+CVM Credentials: nutanix/partnerSE/4u
+
+AHV Host Credentials: root / partnerSE/4u
+
+
+**NETWORK INFORMATION**
+
+
+Subnet Mask: 255.255.255.128
+
+Gateway: 10.42.67.1
+
+Nameserver IP: 10.42.196.10
+
+
+**CLUSTER CREATION DETAILS**
+
+
+Number of Initial Nodes: all
+
+AOS Version: 5.10.1
+
+Hypervisor Version: AHV 20170830.185 (5.9+/5.10+)
+
+
+
+---------------------
+For User 06 - User 10
+---------------------
+
+
+Cluster IP: https://10.42.69.37:9440/console/#login
+
+Prism Central IP: https://10.42.69.40:9440
+
+
+Position: A CVM IP: 10.42.69.29 Hypervisor IP: 10.42.69.25 IPMI IP: 10.42.69.33
+
+Position: B CVM IP: 10.42.69.30 Hypervisor IP: 10.42.69.26 IPMI IP: 10.42.69.34
+
+Position: C CVM IP: 10.42.69.31 Hypervisor IP: 10.42.69.27 IPMI IP: 10.42.69.35
+
+Position: D CVM IP: 10.42.69.32 Hypervisor IP: 10.42.69.28 IPMI IP: 10.42.69.36
+
+
+
+**LOGIN CREDENTIALS**
+
+
+Prism UI Credentials: admin/partnerSE/4u
+
+CVM Credentials: nutanix/partnerSE/4u
+
+AHV Host Credentials: root / partnerSE/4u
+
+
+**NETWORK INFORMATION**
+
+
+Subnet Mask: 255.255.255.128
+
+Gateway: 10.42.69.1
+
+Nameserver IP: 10.42.196.10
+
+
+**CLUSTER CREATION DETAILS**
+
+
+Number of Initial Nodes: all
+
+AOS Version: 5.10.1
+
+Hypervisor Version: AHV 20170830.185 (5.9+/5.10+)
+
+
+
+
+---------------------
+For User 11 - User 15
+---------------------
+
+
+Cluster IP: https://10.42.70.37:9440/console/#login
+
+Prism Central IP: https://10.42.70.40:9440
+
+
+Position: A CVM IP: 10.42.70.29 Hypervisor IP: 10.42.70.25 IPMI IP: 10.42.70.33
+
+Position: B CVM IP: 10.42.70.30 Hypervisor IP: 10.42.70.26 IPMI IP: 10.42.70.34
+
+Position: C CVM IP: 10.42.70.31 Hypervisor IP: 10.42.70.27 IPMI IP: 10.42.70.35
+
+Position: D CVM IP: 10.42.70.32 Hypervisor IP: 10.42.70.28 IPMI IP: 10.42.70.36
+
+
+
+**LOGIN CREDENTIALS**
+
+
+Prism UI Credentials: admin/partnerSE/4u
+
+CVM Credentials: nutanix/partnerSE/4u
+
+AHV Host Credentials: root / partnerSE/4u
+
+
+**NETWORK INFORMATION**
+
+
+Subnet Mask: 255.255.255.128
+
+Gateway: 10.42.70.1
+
+Nameserver IP: 10.42.196.10
+
+
+**CLUSTER CREATION DETAILS**
+
+
+Number of Initial Nodes: all
+
+AOS Version: 5.10.1
+
+Hypervisor Version: AHV 20170830.185 (5.9+/5.10+)
+
